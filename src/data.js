@@ -85,6 +85,71 @@ export const pageData = {
         "Choose 'Move' from the menu, use the D-pad to drag it to the first position, and press 'Select' to confirm."
       ],
       icon: "star"
+    },
+    {
+      id: 8,
+      title: "How to Safely Remove a Playlist",
+      description: "Resolve 'stuck playlist' or 'duplicate content' issues by clearing out old configurations from your IBO Player dashboard. Never use fake third-party management apps.",
+      steps: [
+        "First, try force-closing and restarting the IBO Player app 2–3 times.",
+        "If the issue persists, go to www.iboplayer.com and click 'Manage Playlist'.",
+        "Log in using your MAC Address and Device Key.",
+        "Select your current playlist, toggle 'Delete', and enter your Playlist PIN to confirm.",
+        "Restart the app. If the default demo playlist works but yours does not, contact SkyMaxxTV support."
+      ],
+      icon: "minusCircle"
+    },
+    {
+      id: 9,
+      title: "Update Your Parental Control PIN",
+      description: "Keep your family safe by locking specific categories or adult content. It is highly recommended to change the default PIN to something secure.",
+      steps: [
+        "Go to www.iboplayer.com and click 'Manage Playlist'.",
+        "Log in with your MAC Address and Device Key.",
+        "Locate the 'Parental Control / Parent PIN' section.",
+        "Enter a new 4-digit PIN (the default is usually 0000 if never changed).",
+        "Click 'Save' and restart the IBO Player app on your onn. device."
+      ],
+      icon: "lock"
+    },
+    {
+      id: 10,
+      title: "Uploading Your SkyMaxxTV Playlist",
+      description: "Link your SkyMaxxTV subscription to your device by uploading your custom playlist URL to the IBO Player dashboard.",
+      steps: [
+        "Go to www.iboplayer.com and select 'Manage Playlist'.",
+        "Log in with your device's MAC Address and Device Key.",
+        "Click 'Add Playlist'.",
+        "Paste your provided SkyMaxxTV M3U or M3U8 URL (ensure it starts with http:// or https://).",
+        "Give the playlist a custom name (e.g., 'SkyMaxxTV'), click 'Save', and restart the app."
+      ],
+      icon: "upload"
+    },
+    {
+      id: 11,
+      title: "Change Your Device Key for Enhanced Security",
+      description: "Your Device Key acts as a password for your hardware-locked MAC address. Changing it protects your activation and prevents unauthorized access.",
+      steps: [
+        "Go to www.iboplayer.com and log into 'Manage Playlist' with your current credentials.",
+        "Navigate to the 'Device Key' or 'Activation Settings' section.",
+        "Enter a new Device Key (choose a strong string of characters).",
+        "Click 'Save'.",
+        "Restart the app on your TV and re-login with your new Device Key if prompted."
+      ],
+      icon: "shield"
+    },
+    {
+      id: 12,
+      title: "How to Add a Backup Playlist for Uninterrupted Streaming",
+      description: "If your primary SkyMaxxTV server is undergoing routine maintenance, having a secondary backup playlist ensures you never miss a moment of your favorite shows or live events.",
+      steps: [
+        "Go to www.iboplayer.com and select 'Manage Playlist'.",
+        "Log in with your device's MAC Address and Device Key.",
+        "Click 'Add Playlist' to create a new entry.",
+        "Paste your secondary/backup SkyMaxxTV M3U URL into the field.",
+        "Name this playlist 'SkyMaxxTV Backup', click 'Save', and restart your app to see both options on your home screen."
+      ],
+      icon: "plusCircle"
     }
   ]
 };

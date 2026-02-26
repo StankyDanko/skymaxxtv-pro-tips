@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { pageData } from './data';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
-  ChevronDown, Tv, Download, Key, List, Trash2, Star, Gamepad2, PlayCircle
+  ChevronDown, Tv, Download, Key, List, Trash2, Star, Gamepad2, PlayCircle,
+  MinusCircle, Lock, Upload, Shield, CreditCard, PlusCircle // Added PlusCircle here
 } from 'lucide-react';
 
 // Map string identifiers from data.js to SVG components
@@ -14,6 +15,12 @@ const iconMap = {
   trash: Trash2,
   star: Star,
   gamepad: Gamepad2,
+  minusCircle: MinusCircle,
+  lock: Lock,
+  upload: Upload,
+  shield: Shield,
+  creditCard: CreditCard,
+  plusCircle: PlusCircle // Added PlusCircle here
 };
 
 const TipCard = ({ tip, index }) => {
