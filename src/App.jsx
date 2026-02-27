@@ -2,25 +2,24 @@ import React, { useState } from 'react';
 import { pageData } from './data';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
-  ChevronDown, Tv, Download, Key, List, Trash2, Star, Gamepad2, PlayCircle,
-  MinusCircle, Lock, Upload, Shield, CreditCard, PlusCircle // Added PlusCircle here
+  ChevronDown, Tv, PlayCircle, Heart, ListPlus, Trash2, 
+  Layout, Zap, EyeOff, Film, ArrowDownAZ, Power, Palette
 } from 'lucide-react';
 
 // Map string identifiers from data.js to SVG components
 const iconMap = {
   tv: Tv,
-  download: Download,
-  key: Key,
-  list: List,
-  trash: Trash2,
-  star: Star,
-  gamepad: Gamepad2,
-  minusCircle: MinusCircle,
-  lock: Lock,
-  upload: Upload,
-  shield: Shield,
-  creditCard: CreditCard,
-  plusCircle: PlusCircle // Added PlusCircle here
+  playCircle: PlayCircle,
+  heart: Heart,
+  listPlus: ListPlus,
+  trash2: Trash2,
+  layout: Layout,
+  zap: Zap,
+  eyeOff: EyeOff,
+  film: Film,
+  arrowDownAZ: ArrowDownAZ,
+  power: Power,
+  palette: Palette
 };
 
 const TipCard = ({ tip, index }) => {

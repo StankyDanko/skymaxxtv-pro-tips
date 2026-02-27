@@ -1,155 +1,146 @@
 export const pageData = {
-  title: "Essential SkyMaxxTV Pro Tips for 2026",
-  intro: "Welcome to SkyMaxxTV! To ensure you get the absolute best streaming experience, we have compiled the ultimate guide for optimizing your onn. Google TV 4K Streaming Box and mastering the IBO Player interface. Follow these steps to unlock the full potential of your entertainment setup.",
+  title: "SkyMaxxTV Knowledge Base & Pro Tips",
+  intro: "Welcome to your SkyMaxxTV support hub! We want you to get the absolute best out of your entertainment experience. Below, you will find step-by-step instructions to customize your layout, optimize your streaming performance, and master all the features of your SkyMaxxTV service.",
   tips: [
     {
       id: 1,
-      title: "Pairing and Resetting the onn. Remote",
-      description: "If your remote becomes unresponsive or disconnects, re-pairing it to your onn. 4K box takes just a few seconds.",
+      title: "Add Live TV Channels to Favourites While Watching",
+      [cite_start]description: "Quickly save the channel you are currently viewing to your favourites list for easy access. [cite: 208, 210]",
       steps: [
-        "Ensure your TV and onn. box are powered on.",
-        "Press and hold the 'Home' button and the 'Back' button simultaneously.",
-        "Hold them for about 5 to 10 seconds until the LED light on the remote begins to flash.",
-        "Your TV screen will display a pairing confirmation."
+        [cite_start]"Press the OK or centre button on your remote while the channel is playing[cite: 11, 212]. [cite_start]This opens the on-screen channel menu or info bar[cite: 213].",
+        [cite_start]"Press the Menu button or navigate to the options icon on screen[cite: 214]. [cite_start]A context menu will appear[cite: 215].",
+        [cite_start]"Select 'Add to Favourites' from the menu[cite: 12, 220].",
+        [cite_start]"You will see a brief confirmation message indicating the channel has been saved[cite: 13, 220]."
       ],
-      icon: "gamepad"
+      icon: "heart"
     },
     {
       id: 2,
-      title: "Installing IBO Player on Google TV",
-      description: "IBO Player is your gateway to SkyMaxxTV. Installing it directly from the Google Play Store is the safest and most reliable method.",
+      title: "Add Channels to Favourites from the Main List",
+      description: "Browse your channel categories and save multiple favorites without having to load each stream first.",
       steps: [
-        "From the Google TV Home Screen, navigate to the 'Search' tab or press the Google Assistant mic button.",
-        "Search for 'IBO Player'.",
-        "Select the official IBO Player app from the search results.",
-        "Click 'Install' and wait for the download to complete, then click 'Open'."
+        [cite_start]"From the main home screen, select Live TV[cite: 14, 223].",
+        [cite_start]"Browse your channel categories and highlight the channel you wish to add[cite: 15, 224, 225]. [cite_start]Do not press OK to play it yet[cite: 225].",
+        [cite_start]"Press and hold the OK button (long press) on your remote, or press the Options or Menu button[cite: 15, 226].",
+        [cite_start]"Select 'Add to Favourites' from the pop-up menu[cite: 16, 228]. [cite_start]The channel name and stream URL are saved immediately[cite: 229]."
       ],
-      icon: "download"
+      icon: "listPlus"
     },
     {
       id: 3,
-      title: "Locating Your IBO Player Device ID & Key",
-      description: "To link your SkyMaxxTV service to IBO Player, you will need your unique device credentials. You will provide these to our activation portal.",
+      title: "Access and Remove Saved Favourites",
+      description: "Locate your saved channels, movies, and series, or clean up your list by removing items you no longer watch.",
       steps: [
-        "Launch the IBO Player app on your onn. box.",
-        "On the initial loading screen or the main menu, look for 'Device MAC' (or Device ID) and 'Device Key'.",
-        "Take a photo or write down these two alphanumeric codes exactly as they appear.",
-        "Provide these details when setting up your SkyMaxxTV subscription."
+        [cite_start]"From the home screen, open Live TV, Movies, or Series[cite: 26, 232, 239].",
+        [cite_start]"On the left-hand category panel, scroll to the very top[cite: 27, 240]. [cite_start]Select the 'Favourites' or 'My Favourites' category[cite: 28, 241].",
+        [cite_start]"To remove a saved item, highlight the channel, movie, or series[cite: 39, 245].",
+        [cite_start]"Press and hold OK, or press Menu, then select 'Remove from Favourites'[cite: 40, 41, 246, 247]. [cite_start]The item will be removed immediately[cite: 42, 247]."
       ],
-      icon: "key"
+      icon: "trash2"
     },
     {
       id: 4,
-      title: "Optimizing 4K Display Resolution",
-      description: "Ensure you are getting the sharpest picture possible by forcing the onn. box to output at your TV's maximum resolution.",
+      title: "Fix Buffering by Switching Video Players",
+      [cite_start]description: "If channels are freezing or won't play properly, switching the internal video player engine often resolves the issue. [cite: 68, 70, 75]",
       steps: [
-        "Navigate to the 'Settings' gear icon at the top right of your Google TV home screen.",
-        "Select 'Display & Sound' > 'Advanced display settings'.",
-        "Select 'Resolution'.",
-        "Switch from 'Auto' to '4K (60Hz)' or the highest resolution your TV supports."
+        [cite_start]"Go to Settings from the home screen[cite: 71, 256].",
+        [cite_start]"Select Live TV, then Player Engine[cite: 72, 292, 293].",
+        [cite_start]"Switch from ExoPlayer to VLC Player[cite: 73, 294].",
+        [cite_start]"ExoPlayer works best for most streams, but VLC Player is a good alternative if you are having issues[cite: 75, 294]."
+      ],
+      icon: "playCircle"
+    },
+    {
+      id: 5,
+      title: "Customize the Live TV Layout Style",
+      description: "Switch between a modern, feature-rich interface and a classic, simplified list view for your live channels.",
+      steps: [
+        [cite_start]"Go to Settings from the home screen[cite: 48, 256].",
+        [cite_start]"Navigate to Live TV settings and select Screen Style or Layout[cite: 49, 50, 263].",
+        [cite_start]"Choose Smart Style for a modern layout with channel logos, EPG info, and a category panel[cite: 52, 264]. [cite_start]This is the default setting[cite: 52, 264].",
+        [cite_start]"Choose Normal Style for a classic, simpler list view[cite: 53, 264]. [cite_start]Press OK to confirm your choice[cite: 54]."
+      ],
+      icon: "layout"
+    },
+    {
+      id: 6,
+      title: "Access and Refresh the TV Guide (EPG)",
+      description: "View current and upcoming TV schedules. [cite_start]If your guide data is missing, you can manually refresh it. [cite: 82, 88]",
+      steps: [
+        [cite_start]"While watching a channel, press OK to bring up the info bar, then look for the EPG or Guide button and press it[cite: 84, 85].",
+        [cite_start]"Alternatively, from the channel list, highlight a channel, press the Menu button, and select EPG or Programme Info[cite: 86].",
+        [cite_start]"If the EPG isn't loading, go to Settings, then EPG[cite: 87, 300].",
+        [cite_start]"Select Reload EPG, Update EPG, or Manage EPG to refresh the guide data[cite: 88, 302]."
       ],
       icon: "tv"
     },
     {
-      id: 5,
-      title: "Navigating the IBO Player Interface",
-      description: "IBO Player organizes your SkyMaxxTV content neatly into categories. Here is how to navigate them efficiently using your onn. remote.",
-      steps: [
-        "Use the directional pad (D-pad) to move between 'Live TV', 'Movies', and 'Series'.",
-        "Press the center 'Select' button to enter a category.",
-        "While watching a stream, press the 'Select' button to bring up the player controls (pause, play, fast-forward).",
-        "Press the 'Back' button to return to the previous menu or channel list."
-      ],
-      icon: "list"
-    },
-    {
-      id: 6,
-      title: "Clearing App Cache to Fix Buffering",
-      description: "If your SkyMaxxTV streams start buffering or IBO Player feels sluggish, clearing the cache usually resolves the issue instantly.",
-      steps: [
-        "Go to 'Settings' > 'Apps' > 'See all apps' on your onn. box.",
-        "Scroll down and select 'IBO Player'.",
-        "Select 'Clear cache' (Do NOT click 'Clear data', as this will erase your login!).",
-        "Restart the app for a fresh connection."
-      ],
-      icon: "trash"
-    },
-    {
       id: 7,
-      title: "Customizing Google TV Home Screen",
-      description: "Make your SkyMaxxTV experience seamless by moving the IBO Player app to the very front of your app list.",
+      title: "Speed Up App Loading Times",
+      [cite_start]description: "If your SkyMaxxTV app feels slow when opening Live TV due to a massive playlist, change how channels are loaded. [cite: 105, 275, 279]",
       steps: [
-        "Navigate to the 'Your apps' row on the Google TV home screen.",
-        "Scroll right and select 'See all'.",
-        "Highlight the IBO Player app, then press and hold the center 'Select' button.",
-        "Choose 'Move' from the menu, use the D-pad to drag it to the first position, and press 'Select' to confirm."
+        [cite_start]"Go to Settings, then Content, and select Load Mode[cite: 106, 276].",
+        [cite_start]" 'Load All In One' loads every channel at once, which can be slow for large playlists[cite: 108, 277]. [cite_start]This is the default setting[cite: 277, 278].",
+        [cite_start]"Switch to 'Load By Category' to load channels one group at a time[cite: 107, 277]. [cite_start]This is much faster if you have a large playlist[cite: 109, 277]."
       ],
-      icon: "star"
+      icon: "zap"
     },
     {
       id: 8,
-      title: "How to Safely Remove a Playlist",
-      description: "Resolve 'stuck playlist' or 'duplicate content' issues by clearing out old configurations from your IBO Player dashboard. Never use fake third-party management apps.",
+      title: "Declutter by Hiding Unused Categories",
+      [cite_start]description: "Keep your Live TV list tidy and make navigation faster by hiding categories you never watch. [cite: 94, 100, 323]",
       steps: [
-        "First, try force-closing and restarting the IBO Player app 2–3 times.",
-        "If the issue persists, go to www.iboplayer.com and click 'Manage Playlist'.",
-        "Log in using your MAC Address and Device Key.",
-        "Select your current playlist, toggle 'Delete', and enter your Playlist PIN to confirm.",
-        "Restart the app. If the default demo playlist works but yours does not, contact SkyMaxxTV support."
+        [cite_start]"Go to Settings from the home screen and select Manage Categories[cite: 95, 96, 320]. [cite_start]This may also appear under More Options[cite: 96, 318].",
+        [cite_start]"You will see your full list of categories[cite: 97, 321].",
+        [cite_start]"Highlight any category and press OK to toggle it on or off[cite: 98, 322].",
+        [cite_start]"Hidden categories will no longer appear in your Live TV channel list, which is great for keeping navigation fast and tidy[cite: 99, 100, 323]."
       ],
-      icon: "minusCircle"
+      icon: "eyeOff"
     },
     {
       id: 9,
-      title: "Update Your Parental Control PIN",
-      description: "Keep your family safe by locking specific categories or adult content. It is highly recommended to change the default PIN to something secure.",
+      title: "Change the Movies Display Style",
+      [cite_start]description: "Choose how your on-demand movies are visually presented, either prioritizing artwork or browsing speed. [cite: 125, 128, 129]",
       steps: [
-        "Go to www.iboplayer.com and click 'Manage Playlist'.",
-        "Log in with your MAC Address and Device Key.",
-        "Locate the 'Parental Control / Parent PIN' section.",
-        "Enter a new 4-digit PIN (the default is usually 0000 if never changed).",
-        "Click 'Save' and restart the IBO Player app on your onn. device."
+        [cite_start]"Go to Settings, then Movies, and select View Style[cite: 126, 267].",
+        [cite_start]"Choose Grid Style to display movie posters in a visual grid[cite: 128, 268]. [cite_start]This is the default[cite: 128, 269].",
+        [cite_start]"Choose List Style to show movies as a simple text list, which is faster to scroll[cite: 129, 268]. [cite_start]Press OK to apply[cite: 130]."
       ],
-      icon: "lock"
+      icon: "film"
     },
     {
       id: 10,
-      title: "Uploading Your SkyMaxxTV Playlist",
-      description: "Link your SkyMaxxTV subscription to your device by uploading your custom playlist URL to the IBO Player dashboard.",
+      title: "Sort Your Content Alphabetically",
+      [cite_start]description: "Easily organize your Live TV channels, movies, or series alphabetically instead of by the latest additions. [cite: 58, 281]",
       steps: [
-        "Go to www.iboplayer.com and select 'Manage Playlist'.",
-        "Log in with your device's MAC Address and Device Key.",
-        "Click 'Add Playlist'.",
-        "Paste your provided SkyMaxxTV M3U or M3U8 URL (ensure it starts with http:// or https://).",
-        "Give the playlist a custom name (e.g., 'SkyMaxxTV'), click 'Save', and restart the app."
+        [cite_start]"To change how your channels or movies are sorted, go to Settings, then Content, and select Sort Order[cite: 59, 60, 135, 283].",
+        [cite_start]"To sort TV shows, go to Settings, then Series, and select Sort Order[cite: 153, 287].",
+        [cite_start]"Choose Latest to see newest content first, A–Z for alphabetical order, or Z–A for reverse alphabetical order[cite: 62, 63, 64, 284]. [cite_start]The default is Latest[cite: 62, 284]."
       ],
-      icon: "upload"
+      icon: "arrowDownAZ"
     },
     {
       id: 11,
-      title: "Change Your Device Key for Enhanced Security",
-      description: "Your Device Key acts as a password for your hardware-locked MAC address. Changing it protects your activation and prevents unauthorized access.",
+      title: "Enable Auto-Boot for SkyMaxxTV",
+      [cite_start]description: "Make your streaming experience seamless by configuring the app to launch automatically as soon as your device turns on. [cite: 183, 314]",
       steps: [
-        "Go to www.iboplayer.com and log into 'Manage Playlist' with your current credentials.",
-        "Navigate to the 'Device Key' or 'Activation Settings' section.",
-        "Enter a new Device Key (choose a strong string of characters).",
-        "Click 'Save'.",
-        "Restart the app on your TV and re-login with your new Device Key if prompted."
+        [cite_start]"Go to Settings, then General, and select Auto Boot[cite: 184, 313].",
+        [cite_start]"Toggle the option to On[cite: 185, 315].",
+        [cite_start]"The app will now launch automatically every time your device starts up[cite: 186, 315]. [cite_start]To turn this off, return to the same setting and toggle it back to Off[cite: 187, 315]."
       ],
-      icon: "shield"
+      icon: "power"
     },
     {
       id: 12,
-      title: "How to Add a Backup Playlist for Uninterrupted Streaming",
-      description: "If your primary SkyMaxxTV server is undergoing routine maintenance, having a secondary backup playlist ensures you never miss a moment of your favorite shows or live events.",
+      title: "Customize Your Home Screen and Theme",
+      [cite_start]description: "Personalize your SkyMaxxTV dashboard by changing the main layout style and background wallpaper. [cite: 160, 169, 310]",
       steps: [
-        "Go to www.iboplayer.com and select 'Manage Playlist'.",
-        "Log in with your device's MAC Address and Device Key.",
-        "Click 'Add Playlist' to create a new entry.",
-        "Paste your secondary/backup SkyMaxxTV M3U URL into the field.",
-        "Name this playlist 'SkyMaxxTV Backup', click 'Save', and restart your app to see both options on your home screen."
+        [cite_start]"To change the home screen layout, go to Settings, then Home Screen, and select Layout[cite: 161, 271].",
+        [cite_start]"Choose Italic Style for a stylised card-based layout, or Standard Style for a traditional layout[cite: 163, 164, 272]. [cite_start]Press OK to apply[cite: 165].",
+        [cite_start]"To change the app's background or theme, go to Settings, then General, and select Background / Theme[cite: 170, 309].",
+        [cite_start]"Browse the available backgrounds, select one you like, and press OK to apply[cite: 171, 172]."
       ],
-      icon: "plusCircle"
+      icon: "palette"
     }
   ]
 };
