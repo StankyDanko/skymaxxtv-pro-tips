@@ -1,7 +1,10 @@
+import React, { useState } from 'react';
+import { pageData } from './data';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ChevronDown, Tv, PlayCircle, Heart, ListPlus, Trash2, 
   Layout, Zap, EyeOff, Film, ArrowDownAZ, Power, Palette,
-  Clapperboard, Search, Server, CalendarDays, Globe // <--- Add these!
+  Clapperboard, Search, Server, CalendarDays, Globe
 } from 'lucide-react';
 
 // Map string identifiers from data.js to SVG components
@@ -27,6 +30,7 @@ const iconMap = {
 
 const TipCard = ({ tip, index }) => {
   const [isOpen, setIsOpen] = useState(false);
+  // Safely fallback to PlayCircle if an icon is missing
   const IconComponent = iconMap[tip.icon] || PlayCircle;
 
   return (
