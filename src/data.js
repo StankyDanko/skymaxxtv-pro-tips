@@ -141,6 +141,67 @@ export const pageData = {
         "Browse the available backgrounds, select one you like, and press OK to apply."
       ],
       icon: "palette"
+    },
+    {
+      id: 13,
+      title: "Save Movies and TV Series for Later",
+      description: "Just like Live TV, your SkyMaxxTV app maintains separate, independent favourites lists for your VOD Movies and Series so you can easily build a watchlist.",
+      steps: [
+        "Go to the Movies or Series section from the home screen.",
+        "Browse to the movie or TV show you want to save.",
+        "Highlight the title and long-press OK, or press the Menu button on your remote.",
+        "Select 'Add to Favourites'.",
+        "To find it later, go to Movies → Favourites or Series → Favourites at the very top of the category list."
+      ],
+      icon: "clapperboard"
+    },
+    {
+      id: 14,
+      title: "Missing Favourites? Check Your Active Playlist",
+      description: "If your saved channels suddenly disappear, don't panic! Favourites are tied directly to the specific playlist you were using when you saved them.",
+      steps: [
+        "Remember that favourites are stored per playlist; if you have multiple servers connected, they each have their own favourites list.",
+        "If your list is missing, you may have accidentally switched to a different playlist or backup server.",
+        "Check which playlist is currently active in your Settings to restore your view.",
+        "Rest assured, your favourites are saved in the app database and survive restarts and updates."
+      ],
+      icon: "search"
+    },
+    {
+      id: 15,
+      title: "Switch Between Multiple SkyMaxxTV Playlists",
+      description: "If you have a backup SkyMaxxTV server or multiple subscriptions, you can easily toggle between them right from your TV screen.",
+      steps: [
+        "From the home screen, navigate to Settings.",
+        "Select the 'Playlists' option from the menu.",
+        "You will see a list of all your connected servers and playlists.",
+        "Highlight the one you want to use and select it to make it your active playlist."
+      ],
+      icon: "server"
+    },
+    {
+      id: 16,
+      title: "Enable the Detailed Multi-Day TV Guide",
+      description: "Get a broader view of your upcoming schedule by enabling the 'Drill-down' feature in your Electronic Programme Guide (EPG).",
+      steps: [
+        "Go to Settings from the home screen.",
+        "Select 'EPG' or 'Programme Guide'.",
+        "Locate the 'Drill-down EPG' option.",
+        "Enable this to view a detailed, multi-day EPG view instead of just the immediate upcoming shows."
+      ],
+      icon: "calendarDays"
+    },
+    {
+      id: 17,
+      title: "Change the App Interface Language",
+      description: "SkyMaxxTV supports multiple languages. You can change all the menus and navigation text to your preferred language in seconds.",
+      steps: [
+        "Go to Settings from the home screen.",
+        "Navigate to General, and then select Language.",
+        "Select your preferred language from the provided list.",
+        "Press OK. The app will restart or refresh automatically to apply the new language globally."
+      ],
+      icon: "globe"
     }
   ]
 };

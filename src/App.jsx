@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import { pageData } from './data';
-import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ChevronDown, Tv, PlayCircle, Heart, ListPlus, Trash2, 
-  Layout, Zap, EyeOff, Film, ArrowDownAZ, Power, Palette
+  Layout, Zap, EyeOff, Film, ArrowDownAZ, Power, Palette,
+  Clapperboard, Search, Server, CalendarDays, Globe // <--- Add these!
 } from 'lucide-react';
 
 // Map string identifiers from data.js to SVG components
@@ -19,7 +17,12 @@ const iconMap = {
   film: Film,
   arrowDownAZ: ArrowDownAZ,
   power: Power,
-  palette: Palette
+  palette: Palette,
+  clapperboard: Clapperboard,
+  search: Search,
+  server: Server,
+  calendarDays: CalendarDays,
+  globe: Globe
 };
 
 const TipCard = ({ tip, index }) => {
